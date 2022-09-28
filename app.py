@@ -34,18 +34,20 @@ def welcome():
     return(
         '''
         <!DOCTYPE html>
-        Welcome to the Climate Analysis API!
+        <h2>Welcome to the Surf's Up Climate Analysis API!</h2>
         <br/>
-        Available Routes:
+        <h3>Available Routes:</h3>
         <br/>
-        /api/v1.0/precipitation
+        <ul>
+        <li>/api/v1.0/precipitation</li>
         <br/>
-        /api/v1.0/stations
+        <li>/api/v1.0/stations</li>
         <br/>
-        /api/v1.0/tobs
+        <li>/api/v1.0/tobs</li>
         <br/>
-        /api/v1.0/temp/start/end
+        <li>/api/v1.0/temp/start/end</li>
         <br/>
+        </ul>
         '''      
     )
 
