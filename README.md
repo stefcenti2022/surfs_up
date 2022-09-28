@@ -124,3 +124,13 @@ The following steps will allow W. Avy to try it out on our Mac devices:
 #### December Temperature Observations
 
 <img src="./Resources/surfs_up_api_tobs_dec.png" alt="Surf's Up Stations" width="300"/>
+
+---
+
+## Supporting Folders/Files
+
+- Resources: Folder containing images for analysis.
+- SurfsUp_Challenge.ipynb: Notebook containing code for this analysis.
+- app.py: Code for flask routes used for the prototype app in this analysis.
+- climate_analysis.ipynb: Original notebook used to test run queries and for future reference.
+- hawaii.sqlite: SQLite database containing Measurement and Station data used for this analysis.
